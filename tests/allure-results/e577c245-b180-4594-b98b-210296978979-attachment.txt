@@ -1,0 +1,8 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\sbbu3\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe] found in cache
+[32mINFO    [0m root:imdb.py:28 launching the url
+[32mINFO    [0m root:imdb.py:31 entered movie name
+[32mINFO    [0m root:imdb.py:36 both the names are matched successfully
+[32mINFO    [0m root:imdb.py:39 getting the country name from imdb
+[32mINFO    [0m root:imdb.py:46 getting the movie release data from imdb
