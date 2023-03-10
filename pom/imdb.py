@@ -12,7 +12,7 @@ class IMDB:
     _button_search = "suggestion-search-button", "id"
     _text_pushpa = "//a[contains(text(),'Pushpa') and contains(text(),'The Rise') and  contains(text()," \
                    "'Part 1')] ", "xpath"
-    _text_country = "//button[text()='Country of origin']/..//a", "xpath"
+    _text_country = "//span[text()='Country of origin']/..//a", "xpath"
     _text_movie_title = "//h1", "xpath"
     _img_release_arrow = "//a[text()='Release date']//following-sibling::div", "xpath"
     _text_more_releases = "//span[contains(text(),'more')]", "xpath"
