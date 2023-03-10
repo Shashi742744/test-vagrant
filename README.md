@@ -15,23 +15,21 @@
 
 ## GIT LINK TO CLONE PROJECT
 
-> git clone 
+> git clone https://github.com/Shashi742744/test-vagrant
 
 ## HOW TO EXECUTE IN COMMAND LINE
 > pytest -m marker_name
+> 
 > pytest module.py::ClassName::method_name
 
-## To change grouping of scripts (change marker_name)
+## TO CHANGE GROUPING OF SCRIPTS (CHANGE MAKER_NAME)
 > Markers are used for grouping tests
 
-## For reports option
+## FOR REPORTS OPTION
 > --html=report.html 
 
-## For rerunning failed tests
+## FOR RERUNNING FAILED TESTS
 > pipenv run pytest --lf
 
-## For parallel execution 
-> -n number_of_workers (input_type = integer)
-
 ## HOW TO RUN SCRIPT IN DIFFERENT BROWSER
-> pytest module.py::ClassName::method_name --browser=edge
+> pytest module.py::ClassName::method_name --browser=<browser_name>
